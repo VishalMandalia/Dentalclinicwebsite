@@ -471,8 +471,8 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -10px;
-  margin-left: -10px; }
+  margin-right: -15px;
+  margin-left: -15px; }
 
 .no-gutters {
   margin-right: 0;
@@ -7103,9 +7103,7 @@ button.bg-dark:focus {
     padding-bottom: 0 !important; }
   .pl-md-0,
   .px-md-0 {
-    padding-left: 0 !important;
-    margin-left: -30px;
-    margin-right: -60px; }
+    padding-left: 0 !important; }
   .p-md-1 {
     padding: 0.25rem !important; }
   .pt-md-1,
@@ -7166,13 +7164,13 @@ button.bg-dark:focus {
     padding: 3rem !important; }
   .pt-md-5,
   .py-md-5 {
-    padding-top: 0rem !important; }
+    padding-top: 3rem !important; }
   .pr-md-5,
   .px-md-5 {
     padding-right: 3rem !important; }
   .pb-md-5,
   .py-md-5 {
-    padding-bottom: 0rem !important; }
+    padding-bottom: 3rem !important; }
   .pl-md-5,
   .px-md-5 {
     padding-left: 3rem !important; }
@@ -8032,7 +8030,6 @@ h1, h2, h3, h4, h5,
   font-size: 15px;
   width: 100%; }
   .topper .icon {
-    margin-left: 50px;
     width: 50px;
     height: 50px;
     background: #fff;
@@ -8064,13 +8061,6 @@ h1, h2, h3, h4, h5,
       font-size: 13px; }
     .topper .text .time span:last-child {
       font-weight: 600;
-      color: #46b7de; }
-      .time-add span:last-child {
-      font-weight: 600;
-      color: #46b7de; }
-      .time-add span:first-child {
-      font-weight: 600;
-      margin-left: -5px;
       color: #46b7de; }
 
 .ftco-navbar-light {
@@ -8229,34 +8219,17 @@ h1, h2, h3, h4, h5,
       color: #000000; }
 
 .navbar-brand {
-  font-weight: 850;
-  text-align: center;
-  font-family: Times New Roman;
-  font-size: 35px;
-  margin-top: -20px;
+  font-weight: 700;
+  font-size: 28px;
   padding: 0;
-  letter-spacing: 4.8px;
   line-height: 1;
-  color: tomato; }
-
+  color: #000000; }
   .navbar-brand span {
-    font-family: italic;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
     display: block;
-    color: black;
-    text-align: center; }
-  
-  .navbar-brand-new {
-    font-weight: 1100;
-    font-family: Impact;
-    text-align: center;
-    /*margin-top: -20px*/
-    font-size: 35px;
-    padding: 0;
-    letter-spacing: 8px;
-    line-height: 1;
-    color: blue; }
+    color: #46b7de;
+    text-align: left; }
 
 .hero-wrap {
   width: 100%;
@@ -8628,11 +8601,10 @@ h1, h2, h3, h4, h5,
       background-position: top center !important; } }
 
 .ftco-intro {
-  padding: 2em 0;
+  padding: 4em 0;
   width: 100%;
   height: 100%;
   position: inherit;
-  /*background-color: lemonyellow;*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -8926,7 +8898,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 3em 0;
+  padding: 7em 0;
   position: relative; }
 
 .ftco-no-pt {
