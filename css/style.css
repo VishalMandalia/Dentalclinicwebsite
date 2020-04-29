@@ -8069,7 +8069,7 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #24a1cd !important;
+      background: linear-gradient(to right, rgb(243, 87, 12), rgb(255, 0, 0)) !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
