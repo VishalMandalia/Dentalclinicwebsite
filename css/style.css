@@ -8024,7 +8024,7 @@ h1, h2, h3, h4, h5,
   font-weight: 400; }
 
 .text-primary {
-  color: Tomato !important; }
+  color: Tomato; !important; }
 
 .topper {
   font-size: 15px;
@@ -8170,7 +8170,7 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     .ftco-navbar-light.scrolled .nav-item.active > a {
-      color: Tomato !important; }
+      color: Tomato; !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
       color: #fff !important;
       background: Tomato;
@@ -8205,7 +8205,7 @@ h1, h2, h3, h4, h5,
       padding-bottom: 0.9rem !important;
       color: #000000 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: Tomato !important; }
+        color: Tomato; !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -8285,7 +8285,7 @@ h1, h2, h3, h4, h5,
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
       margin-top: -10px;
-      color: Tomato !important;
+      color: Tomato; !important;
       -moz-transition: all 0.7s ease;
       -o-transition: all 0.7s ease;
       -webkit-transition: all 0.7s ease;
@@ -8889,7 +8889,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: Tomato !important; }
+  background: Tomato; !important; }
 
 .bg-secondary {
   background: #a8c337 !important; }
@@ -8912,7 +8912,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 14px;
-  background: Tomato;
+  background: linear-gradient(to right, rgb(237, 62, 18), rgb(239, 16, 95));
   padding: 6em 0em 0em 0em; }
   .ftco-footer .ftco-footer-widget {
     width: 100%;
@@ -9330,12 +9330,12 @@ textarea.form-control {
     letter-spacing: .1em; }
 
 .consultation {
-  background: Tomato;
+  background: linear-gradient(to right, rgb(237, 62, 18), rgb(239, 16, 95));
   color: rgba(255, 255, 255, 0.9);
   padding-top: 4em;
   padding-bottom: 4em; }
   .consultation.consul {
-    background: #24a1cd; }
+    background: linear-gradient(to right, rgb(4, 4, 251), rgb(69, 186, 181)); }
   .consultation h3 {
     font-size: 20px;
     color: #fff;
@@ -9544,7 +9544,7 @@ textarea.form-control {
     transform: translateY(-50%); }
 
 .subs-wrap {
-  background: Tomato !important;
+  background: Tomato; !important;
   display: block;
   width: 100%;
   color: rgba(255, 255, 255, 0.7); }
@@ -9761,4 +9761,25 @@ textarea.form-control {
 /* Main content */
 .main-custom {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red;  /*Set a background color*/ 
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 16px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }

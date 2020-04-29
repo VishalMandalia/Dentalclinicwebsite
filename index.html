@@ -27,11 +27,12 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" style="background-image: url(images/arr.png);"></button>
     <div class="py-md-5 py-4 border-bottom">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
     			<div class="col-md-4 order-md-2 mb-2 mb-md-0 align-items-center text-center">
-		    		<p class="navbar-brand" style="color: tomato;">FAMILY DENTAL CLINIC<span style="color: blue"> AND IMPLANT CENTRE</span><a style="font-family: italic; font-size: 20px; margin-left: 20px; color: black">Creating beautiful smiles</a></p>
+		    		<p class="navbar-brand" style="color: Tomato;">FAMILY DENTAL CLINIC<span style="color: blue"> AND IMPLANT CENTRE</span><a style="font-family: italic; font-size: 20px; margin-left: 20px; color: black">Creating beautiful smiles</a></p>
 
 	    		</div>
 	    		<div class="col-md-4 order-md-1 d-flex topper mb-md-0 mb-2 align-items-center text-md-right">
@@ -39,26 +40,26 @@
 	    				<span class="icon-send"></span>
 	    			</div>
 	    			<div class="pr-md-4 pl-md-0 pl-3 text">  
-					    <p class="con"><span>Free Call</span> <span><a class="mobilesOnly" href="tel:+91-123-456-7890" style="color: black;">+91 234 456 7890</a></span></p>
-					    <p class="con"><span>Email</span> <span><a href="mailto:khyatismandalia3@gmail.com" style="color: black;">khyatismandalia3@gmail.com</a></span></p>
+					    <p class="con"><span>Call:</span> <span><a class="mobilesOnly" href="tel:+91-123-456-7890" style="color: black;">+91 234 456 7890</a></span></p>
+					    <p class="con"><span>Email:</span> <span><a href="mailto:khyatismandalia3@gmail.com" style="color: black;">khyatismandalia3@gmail.com</a></span></p>
 				    </div>
 			    </div>
 			    <div class="col-md-4 order-md-3 d-flex topper mb-md-0 align-items-center">
 			    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-clock-o"></span></div>
 			    	<div class="text pl-3 pl-md-3">
 					    <p class="hr"><span>Open Hours</span></p>
-					    <p class="time"><span>Mon - Sat:</span> <span>10:00am - 10:00pm</span></p>
-              <p class="time"><span>Sunday:</span> <span>By Appointment Only</span></p>
+					    <p class="time"><span style="color: black; font-weight: bold;">Mon - Sat:</span> <span>10:00am - 10:00pm</span></p>
+              <p class="time"><span style="color: black; font-weight: bold;">Sunday:</span> <span>By Appointment Only</span></p>
 				    </div>
 			    </div>
 		    </div>
 		  </div>
     </div>
-	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light navbar-custom" id="ftco-navbar">
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light navbar-custom" id="ftco-navbar" >
 	    <div class="container d-flex align-items-center">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
-	      </button>
+	      </button><!-- style="background-color: linear-gradient(to right, rgb(243, 87, 12), rgb(255, 0, 0));" -->
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
 	        	<li class="nav-item active"><a href="#home" class="nav-link pl-0">Home</a></li>
@@ -965,5 +966,26 @@
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
     
+ <script type="text/javascript">
+      //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+ </script>
   </body>
 </html>
